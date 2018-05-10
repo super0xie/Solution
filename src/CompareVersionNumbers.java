@@ -25,7 +25,7 @@ public class CompareVersionNumbers {
         }
         else if(strs1.length < strs2.length) {
         	for(int j = i; j < strs2.length; j++){
-        		if(Integer.parseInt(strs2[j]) != 0)) return -1;
+        		if(Integer.parseInt(strs2[j]) != 0) return -1;
         	}
         	return 0;
         }
