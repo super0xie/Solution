@@ -18,11 +18,11 @@ class Solution(object):
         head = dum = ListNode(0)
         for i in range(len(lists)):
             if lists[i] != None:
-                pq.heappush(heap, (lists[i].val, lists[i]))
+                pq.heappush(heap, lists[i])
         while len(heap) > 0:
-            poped_node = pq.heappop(heap)[1]
+            poped_node = pq.heappop(heap)
             if poped_node.next != None:
-                pq.heappush(heap, (poped_node.next.val, poped_node.next))
+                pq.heappush(heap, poped_node.next)
             head.next = poped_node
             head = head.next
         return dum.next
