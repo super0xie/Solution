@@ -47,29 +47,6 @@ public class PermutationsII {
     }
     
     
-    private void helper(String str, int count, int num) {
-        str = str+ "," + num;
-        count++;
-        table.merge(num, -1, Integer::sum);
-        
-        if(count == size) {
-            String[] nums = str.split(",");
-            List<Integer> list = new ArrayList<Integer>();
-            for(String numStr : nums) {
-                if(numStr.length() > 0) list.add(Integer.parseInt(numStr));
-            }
-            
-            result.add(list);
-        }else {
-            for(int key : table.keySet()) {
-                if(table.get(key) > 0) helper(str, count, key);   
-            }
-        }
-        
-        table.merge(num, 1, Integer::sum);  
-        
-    }
-    
     public static void main(String[] args) {
         PermutationsII test = new PermutationsII();
         int[] nums = {1, 1, 2};
