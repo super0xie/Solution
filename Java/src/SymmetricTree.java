@@ -31,7 +31,6 @@ public class SymmetricTree {
     
     private void dfs(TreeNode root) {
         if(root == null) {
-            list.add(Integer.MIN_VALUE);
             return;
         }
         dfs(root.left);
