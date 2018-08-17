@@ -21,8 +21,10 @@ public class BinaryTreePostorderTraversal {
         		set.add(poped);
         	}else {
         		stack.push(poped);
-        		stack.push(poped.right);
-        		stack.push(poped.left);
+        		if(poped.right != null)
+        			stack.push(poped.right);
+        		if(poped.left != null)
+        			stack.push(poped.left);
         	}
         }
         
