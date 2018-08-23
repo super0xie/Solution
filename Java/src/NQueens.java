@@ -64,7 +64,7 @@ public class NQueens {
     public static void main(String[] args) {
         
         NQueens test = new NQueens();
-        List<List<String>> result = test.solveNQueens(4);
+        List<List<String>> result = test.solveNQueens(5);
         
         System.out.println("hello");
     }
