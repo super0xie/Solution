@@ -14,10 +14,8 @@ public class FlipGameII {
     
     private boolean dfs() {
     	
-    	boolean canMove = false;
     	for(int i = 0; i < arr.length-1; i++) {
     		if(arr[i] && arr[i+1]) {
-    			canMove = true;
     			arr[i] = false;
     			arr[i+1] = false;
     			boolean res = dfs();
@@ -25,10 +23,6 @@ public class FlipGameII {
     			arr[i+1] = true;
     			if(!res) return true;
     		}
-    	}
-    	
-    	if(!canMove) {
-    		return false;
     	}
     	
     	return false;
