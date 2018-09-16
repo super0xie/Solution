@@ -1,7 +1,7 @@
 
 public class IsSubsequence {
 	
-	public boolean isSubsequence(String s, String t) {
+	public boolean isSubsequence2(String s, String t) {
         int i = 0;
         int j = 0;
         
@@ -21,5 +21,17 @@ public class IsSubsequence {
         
         return true;
     }
+	
+	
+	public boolean isSubsequence(String s, String t) {
+        int i = 0;
+        for(char c : t.toCharArray()) {
+        	if(i < s.length() && s.charAt(i) == c) i++;
+        }
+        if(i == s.length()) return true;
+        else return false;
+    }
+	
+	
 
 }
