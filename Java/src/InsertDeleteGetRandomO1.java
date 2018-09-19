@@ -6,50 +6,38 @@ public class InsertDeleteGetRandomO1 {
 	
 	private HashMap<Integer, Integer> map;
 	private int[] nums;
-	private int size;
-	private Random r;
 	public void RandomizedSet() {
 		map = new HashMap<Integer, Integer>();
-		nums = new int [10000];
-		r = new Random();
+		nums = new int [20000];
     }
-    
-    /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
-    public boolean insert(int val) {
-        if(!map.containsKey(val)) {
-        	nums[size] = val;
-        	map.put(val, size);
-        	size++;
-        	return true;
-        }else {
-        	return false;
-        }
-    }
-    
-    /** Removes a value from the set. Returns true if the set contained the specified element. */
-    public boolean remove(int val) {
-    	if(map.containsKey(val)) {
-    		int idx = map.get(val);
-    		map.remove(val);
-    		size--;
-    		if(size > 0) {
-    			nums[idx] = nums[size];
-        		map.put(nums[idx], idx);
-    		}
-    		
-    		
-    		return true;
-    	}else {
-    		return false;
-    	}
-        
-    }
-    
-    /** Get a random element from the set. */
-    public int getRandom() {
-        int idx = r.nextInt(size);
-        return nums[idx];
-    }
+	
+	public boolean insert(int val) {
+	    if(!map.containsKey(val)) {
+	        int idx = map.size();
+	        nums[idx] = val;
+	        map.put(val, idx);
+	        return true;
+	    }
+	    return false;
+	}
+	
+	public int getRandom() {
+	    int idx = new Random().nextInt(map.size());
+	    return nums[idx];
+	}
+	
+	public boolean remove(int val) {
+	    if(map.containsKey(val)) {
+	        int idx = map.get(val);
+	        int last = nums[map.size()-1];
+	        nums[idx] = last;
+	        map.put(last, idx);
+	        map.remove(val);
+	        return true;
+	    }else {
+	        return false;
+	    }
+	}
     
     public static void main(String[] args) {
     	InsertDeleteGetRandomO1 test = new InsertDeleteGetRandomO1();
