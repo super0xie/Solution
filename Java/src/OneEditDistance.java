@@ -25,7 +25,7 @@ public class OneEditDistance {
         	int j = 0;
         	
         	while(i < longer.length() && j < shorter.length()) {
-        		if(s.charAt(i) == t.charAt(j)) {
+        		if(longer.charAt(i) == shorter.charAt(j)) {
         			i++;
         			j++;
         		}else {

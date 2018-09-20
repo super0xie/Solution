@@ -28,15 +28,14 @@ public class BusRoutes {
         	LinkedList<Integer> aux = new LinkedList<Integer>();
         	while(!queue.isEmpty()) {
         		int poped = queue.removeFirst();
-        		visited.add(poped);
         		for(int route : map.get(poped)) {
-        			for(int i : routes[route]) {
-        				if(i == T) return res;
-            			if(!visited.contains(i)) {
-            				aux.add(i);
+        			if(!visited.contains(route)) {
+        				for(int i : routes[route]) {
+            				if(i == T) return res;
+                			aux.add(i);
             			}
+        				visited.add(route);
         			}
-        			
         		}
         	}
         	queue = aux;
@@ -65,15 +64,13 @@ public class BusRoutes {
         	LinkedList<Integer> aux = new LinkedList<Integer>();
         	while(!queue.isEmpty()) {
         		int poped = queue.removeFirst();
-        		visited.add(poped);
         		for(int i = 0; i < route.size(); i++) {
-        			if(route.get(i).contains(poped)) {
+        			if(!visited.contains(i) && route.get(i).contains(poped)) {
         				for(int j = 0; j < routes[i].length; j++) {
         					if(routes[i][j] == T) return res;
-        					if(!visited.contains(routes[i][j])) {
-                				aux.add(routes[i][j]);
-                			}
+                			aux.add(routes[i][j]);
         				}
+        				visited.add(i);
         			}
         		}
         		
