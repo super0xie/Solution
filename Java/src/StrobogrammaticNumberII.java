@@ -28,14 +28,11 @@ public class StrobogrammaticNumberII {
 			else
 				dfs(ind+1, l+pairs[i][0], pairs[i][1] + r, n, res, pairs);
 		}
-			
-		
-		
 	}
 	
 	public static void main(String[] args) {
 		StrobogrammaticNumberII test = new StrobogrammaticNumberII();
-		test.findStrobogrammatic(1);
+		test.findStrobogrammatic(10);
 	}
 
 }

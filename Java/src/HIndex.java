@@ -7,7 +7,6 @@ public class HIndex {
 		Arrays.sort(citations);
 		for(int i = 0; i < citations.length; i++) {
 			if(citations.length-i <= citations[i]) return citations.length-i;
-			if(citations.length-i-1 <= citations[i]) return citations.length-i-1;
 		}
 		return -1;
         
