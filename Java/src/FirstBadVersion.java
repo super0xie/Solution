@@ -1,7 +1,7 @@
 
 public class FirstBadVersion extends VersionControl {
     
-    public int firstBadVersion(int n) {
+    public int firstBadVersionv1(int n) {
         int start = 1;
         int end = n;
         
@@ -18,6 +18,20 @@ public class FirstBadVersion extends VersionControl {
         }
         
         return -1;
+    }
+    
+    public int firstBadVersion(int n) {
+        int start = 1;
+        int end = n;
+        
+        while(start < end) {
+            int mid = start + (end - start) / 2;
+            boolean badMid = isBadVersion(mid);
+            if(!badMid) start = mid+1;
+            else end = mid;
+        }
+        
+        return start;
     }
     
 

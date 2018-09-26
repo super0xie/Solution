@@ -31,6 +31,6 @@ public class AddStrings {
 	
 	public static void main(String[] args) {
 		AddStrings test = new AddStrings();
-		test.addStrings("408", "5");
+		System.out.print(test.addStrings("408", "5"));
 	}
 }
