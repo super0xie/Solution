@@ -27,6 +27,30 @@ public class KEmptySlots {
         return result;
     }
     
+    
+    public int kEmptySlotsWrong(int[] flowers, int k) {
+        int [] days = new int [flowers.length];
+        
+        for(int i = 0; i < flowers.length; i++) {
+            days[flowers[i]-1] = i;
+        }
+        
+        int l = 0;
+        int r = k + 1;
+        int res = -1;
+        for(int i = 0; r < days.length; i++) {
+            if(i == r) {
+                res = Math.max(days[l]+1, days[r]+1);
+                return res;
+            }else if(days[i] < days[l] || days[i] < days[r]) {
+                l = i;
+                r = i + k + 1;
+            }
+        }
+        
+        return res;
+    }
+    
     public static void main(String[] args) {
         int[] flowers = {1,3,2};
         

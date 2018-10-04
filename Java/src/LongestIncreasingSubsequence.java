@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class LongestIncreasingSubsequence {
 	
-	public int lengthOfLIS(int[] nums) {
+	public int lengthOfLISDFS(int[] nums) {
 		if(nums.length == 0) return 0;
         int [] mem = new int [nums.length];
         Arrays.fill(mem, Integer.MIN_VALUE);
@@ -24,6 +25,33 @@ public class LongestIncreasingSubsequence {
 		
 		mem[startIndex] = res;
 		return res;
+	}
+	
+	public int lengthOfLIS(int[] nums) {
+	    if(nums.length == 0) return 0;
+	    ArrayList<Integer> tails = new ArrayList<Integer>();
+	    tails.add(nums[0]);
+	    
+	    for(int i = 1; i < nums.length; i++) {
+	        
+	        if(nums[i] > tails.get(tails.size()-1)) {
+	            tails.add(nums[i]);
+	        }else {
+	            int l = 0;
+	            int r = tails.size()-1;
+	            while(l < r) {
+	                int mid = l + (r-l)/2;
+	                if(tails.get(mid) >= nums[i]) r = mid;
+	                else l = mid+1;
+	            }
+	            
+	            tails.set(l, nums[i]);
+	        }
+	        
+	    }
+	    
+	    
+	    return tails.size();
 	}
 	
 	public static void main(String[] args) {

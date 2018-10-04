@@ -3,7 +3,7 @@ public class InorderSuccessorinBST {
     
     private TreeNode cur;
     private TreeNode res;
-    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+    public TreeNode inorderSuccessorON(TreeNode root, TreeNode p) {
         dfs(root, p);
         return res;
     }
@@ -24,6 +24,36 @@ public class InorderSuccessorinBST {
         dfs(node.right, p);
         
     }
+    
+    
+    
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+        TreeNode succ = null;
+        while(root != null) {
+            if(p.val < root.val) {
+                succ = root;
+                root = root.left;
+            }else {
+                root = root.right;
+            }
+        }
+        return succ;
+    }
+    
+    public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
+        TreeNode pred = null;
+        while(root != null) {
+            if(root.val > p.val) {
+                pred = root;
+                root = root.right;
+            }else {
+                root = root.left;
+            }
+        }
+        return pred;
+    }
+    
+    
     
     public static void main(String[] args) {
         InorderSuccessorinBST test = new InorderSuccessorinBST();

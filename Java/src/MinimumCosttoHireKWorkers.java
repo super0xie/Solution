@@ -67,6 +67,12 @@ public class MinimumCosttoHireKWorkers {
    
     }
     
+//    public double mincostToHireWorkers(int[] quality, int[] wage, int K) {
+//        
+//    }
+    
+    
+    
     public static void main(String[] args) {
         int[] quality = {32,43,66,9,94,57,25,44,99,19};
         int[] wages = {187,366,117,363,121,494,348,382,385,262};

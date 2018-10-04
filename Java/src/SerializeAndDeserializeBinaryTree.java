@@ -47,6 +47,50 @@ public class SerializeAndDeserializeBinaryTree {
         return node;
     }
     
+    
+    
+    
+    
+    public String serialize2(TreeNode root) {
+        StringBuilder sb = new StringBuilder();
+        
+        dfs(sb, root);
+        
+        return sb.toString();
+    }
+    
+    private void dfs (StringBuilder sb, TreeNode n) {
+        if(n == null) sb.append("null,");
+        else {
+            sb.append(n.val + ",");
+            dfs(sb, n.left);
+            dfs(sb, n.right);
+        }
+    }
+    
+    private int idx;
+    public TreeNode deserialize2(String str) {
+        String[] strs = str.split(",");
+        return deserialize2Helper(strs);
+    }
+    
+    private TreeNode deserialize2Helper(String[] strs) {
+        
+        String str = strs[idx++];
+        if(str.equals("null")) {
+            return null;
+        }else {
+            TreeNode n = new TreeNode(Integer.parseInt(str));
+            n.left = deserialize2Helper(strs);
+            n.right = deserialize2Helper(strs);
+            return n;
+        }
+        
+    }
+    
+    
+    
+    
     public static void main(String[] args) {
 //        TreeNode n1 = new TreeNode(1);
 //        TreeNode n2 = new TreeNode(2);
@@ -62,9 +106,10 @@ public class SerializeAndDeserializeBinaryTree {
         SerializeAndDeserializeBinaryTree test = new SerializeAndDeserializeBinaryTree();
 //        
 //        System.out.println(test.serialize(n1));
-        TreeNode root = test.deserialize("1,2,null,null,3,4,null,null,5,null,null,");
+        TreeNode root = test.deserialize2("1,2,null,null,3,4,null,null,5,null,null,");
         
-        System.out.println("ok");
+        
+        System.out.println(test.serialize2(root));
     }
 
 }
