@@ -21,4 +21,8 @@ public class RandomPickIndex {
         int idx = r.nextInt(list.size());
         return list.get(idx);
     }
+    
+    public static void main(String[] args) {
+    	System.out.println();
+    }
 }

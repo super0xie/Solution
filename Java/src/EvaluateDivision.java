@@ -80,6 +80,63 @@ public class EvaluateDivision {
 
 	}
 	
+	public double[] calcEquation2(String[][] equations, double[] values, String[][] queries) {
+        graph = new HashMap<String, HashMap<String, Double>>();
+        
+        for(int i = 0; i < equations.length; i++) {
+        	String a = equations[i][0];
+        	String b = equations[i][1];
+        	
+        	HashMap<String, Double> map = null;
+        	if(graph.containsKey(a)) {
+        		map = graph.get(a);
+        	}else {
+        		map = new HashMap<String, Double>();
+        		graph.put(a, map);
+        	}
+        	
+        	map.put(b, values[i]);
+        	
+        	if(graph.containsKey(b)) {
+        		map = graph.get(b);
+        	}else {
+        		map = new HashMap<String, Double>();
+        		graph.put(b, map);
+        	}
+        	
+        	map.put(a, 1 / values[i]);
+        }
+
+        double [] res = new double [queries.length];
+        
+        for(int i = 0; i < res.length; i++) {
+        	res[i] = helper(queries[i][0], queries[i][1], new HashSet<String>());
+        }
+        
+        
+        return res;
+    }
+	
+	private double helper(String s, String d, HashSet<String> visited) {
+		if(visited.contains(s)) return -1;
+		visited.add(s);
+		if(graph.containsKey(s)) {
+			HashMap<String, Double> nei = graph.get(s);
+			
+			for(String key : nei.keySet()) {
+				if(key.equals(d)) return nei.get(key);
+				else {
+					double res = helper(key, d, visited);
+					if(res > 0) return nei.get(key) * res;
+				}
+			}
+			
+			return -1;
+		}else {
+			return -1;
+		}
+	}
+	
 	public static void main(String[] args) {
 		EvaluateDivision test = new EvaluateDivision();
 		String[][] equations = {{"a", "b"}, {"b", "c"}};
