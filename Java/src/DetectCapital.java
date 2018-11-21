@@ -1,4 +1,4 @@
-public class SearchinaBinarySearchTree {
+public class DetectCapital {
 	public boolean detectCapitalUse(String word) {
 		boolean allCap = true;
 		int count = 0;
