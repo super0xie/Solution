@@ -1,24 +1,44 @@
+import java.util.LinkedList;
 
 public class CheckCompletenessofaBinaryTree {
     
-    private boolean res = true;
+    
     
     public boolean isCompleteTree(TreeNode root) {
-        dfs(root);
-        return res;
+        
+    	LinkedList<TreeNode> q = new LinkedList<>();
+    	q.add(root);
+    	int l = 1;
+    	while(!q.isEmpty()) {
+    		LinkedList<TreeNode> aux = new LinkedList<>();
+    		int num = (int)Math.pow(2, l-1);
+    		boolean complete = q.size() == num;
+    		boolean hasNull = false;
+    		for(TreeNode n : q) {
+    			if(n.left != null) {
+    				if(!complete || hasNull) return false;
+    				aux.add(n.left);
+    			}else {
+    				hasNull = true;
+    			}
+    			
+    			if(n.right != null) {
+    				if(!complete || hasNull) return false;
+    				aux.add(n.right);
+    			}else {
+    				hasNull = true;
+    			}
+    		}
+    		
+    		q = aux;
+    		
+    	}
+    	
+    	
+    	
+        return true;
     }
     
-    private int[] dfs(TreeNode n) {
-        
-        if(n == null) return new int [] {0, 0};
-        int[] l = dfs(n.left);
-        int[] r = dfs(n.right);
-        if(l[0] < r[0] || l[0] - r[0] > 1) res = false;
-        if(r[1] > l[1]) res = false;
-        if(l[0] == r[0]) {
-            if(l[1] != (int)Math.pow(2, r[0])-1) res = false;
-        }
-        return new int[] {Math.max(l[0], r[0]) + 1, l[1]+r[1]+1};
-    }
+    
 
 }
