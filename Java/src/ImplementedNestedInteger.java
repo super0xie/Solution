@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class ImplementedNestedInteger implements NestedInteger {
+public class ImplementedNestedInteger extends NestedInteger {
 	
 	List<NestedInteger> list;
 	int val;
