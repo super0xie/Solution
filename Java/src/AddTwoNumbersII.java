@@ -20,7 +20,7 @@ public class AddTwoNumbersII {
         int i = a1.size()-1;
         int j = a2.size()-1;
         
-        ArrayList<Integer> res = new ArrayList<>();
+        
         ListNode head = null;
         
         while(i >= 0 || j >= 0) {

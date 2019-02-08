@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShoppingOffers",
+            "request": "launch",
+            "mainClass": "ShoppingOffers",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IPtoCIDR",
+            "request": "launch",
+            "mainClass": "IPtoCIDR",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseLinkedListII",
+            "request": "launch",
+            "mainClass": "ReverseLinkedListII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindKPairswithSmallestSums",
+            "request": "launch",
+            "mainClass": "FindKPairswithSmallestSums",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZumaGame",
+            "request": "launch",
+            "mainClass": "ZumaGame",
+            "projectName": "Solution"
+        }
+    ]
+}
