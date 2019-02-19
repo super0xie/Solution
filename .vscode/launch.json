@@ -2,6 +2,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaximumXORofTwoNumbersinanArray",
+            "request": "launch",
+            "mainClass": "MaximumXORofTwoNumbersinanArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PartitionEqualSubsetSum",
+            "request": "launch",
+            "mainClass": "PartitionEqualSubsetSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RottingOranges",
+            "request": "launch",
+            "mainClass": "RottingOranges",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumHeightTrees",
+            "request": "launch",
+            "mainClass": "MinimumHeightTrees",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomFlipMatrix",
+            "request": "launch",
+            "mainClass": "RandomFlipMatrix",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WiggleSubsequence",
+            "request": "launch",
+            "mainClass": "WiggleSubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayintoFibonacciSequence",
+            "request": "launch",
+            "mainClass": "SplitArrayintoFibonacciSequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValidateIPAddress",
+            "request": "launch",
+            "mainClass": "ValidateIPAddress",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumFactorization",
+            "request": "launch",
+            "mainClass": "MinimumFactorization",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntegerReplacement",
+            "request": "launch",
+            "mainClass": "IntegerReplacement",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateFunction",
+            "request": "launch",
+            "mainClass": "RotateFunction",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UTF8Validation",
+            "request": "launch",
+            "mainClass": "UTF8Validation",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClosestBinarySearchTreeValueII",
+            "request": "launch",
+            "mainClass": "ClosestBinarySearchTreeValueII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DominoandTrominoTiling",
+            "request": "launch",
+            "mainClass": "DominoandTrominoTiling",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestBSTSubtree",
+            "request": "launch",
+            "mainClass": "LargestBSTSubtree",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueSubstringsinWraparoundString",
+            "request": "launch",
+            "mainClass": "UniqueSubstringsinWraparoundString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumAreaRectangleII",
+            "request": "launch",
+            "mainClass": "MinimumAreaRectangleII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LonelyPixelII",
+            "request": "launch",
+            "mainClass": "LonelyPixelII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateArrayLiteral",
+            "request": "launch",
+            "mainClass": "CreateArrayLiteral",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BrokenCalculator",
+            "request": "launch",
+            "mainClass": "BrokenCalculator",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimalDivision",
+            "request": "launch",
+            "mainClass": "OptimalDivision",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Numberof1Bits",
+            "request": "launch",
+            "mainClass": "Numberof1Bits",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PeekingIterator",
+            "request": "launch",
+            "mainClass": "PeekingIterator",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ShoppingOffers",
             "request": "launch",
             "mainClass": "ShoppingOffers",
