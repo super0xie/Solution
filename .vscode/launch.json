@@ -2,6 +2,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BitwiseANDofNumbersRange",
+            "request": "launch",
+            "mainClass": "BitwiseANDofNumbersRange",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContinuousSubarraySum",
+            "request": "launch",
+            "mainClass": "ContinuousSubarraySum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumSwapsToMakeSequencesIncreasing",
+            "request": "launch",
+            "mainClass": "MinimumSwapsToMakeSequencesIncreasing",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestDivisibleSubset",
+            "request": "launch",
+            "mainClass": "LargestDivisibleSubset",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofSquarefulArrays",
+            "request": "launch",
+            "mainClass": "NumberofSquarefulArrays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubarrayProductLessThanK",
+            "request": "launch",
+            "mainClass": "SubarrayProductLessThanK",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DecodedStringatIndex",
+            "request": "launch",
+            "mainClass": "DecodedStringatIndex",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwapAdjacentinLRString",
+            "request": "launch",
+            "mainClass": "SwapAdjacentinLRString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayintoConsecutiveSubsequences",
+            "request": "launch",
+            "mainClass": "SplitArrayintoConsecutiveSubsequences",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaximumXORofTwoNumbersinanArray",
             "request": "launch",
             "mainClass": "MaximumXORofTwoNumbersinanArray",
