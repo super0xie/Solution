@@ -2,6 +2,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DeleteColumnstoMakeSortedIII",
+            "request": "launch",
+            "mainClass": "DeleteColumnstoMakeSortedIII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeleteColumnstoMakeSortedII",
+            "request": "launch",
+            "mainClass": "DeleteColumnstoMakeSortedII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxConsecutiveOnesIII",
+            "request": "launch",
+            "mainClass": "MaxConsecutiveOnesIII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReachaNumber",
+            "request": "launch",
+            "mainClass": "ReachaNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringtoInteger",
+            "request": "launch",
+            "mainClass": "StringtoInteger",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestSumofAverages",
+            "request": "launch",
+            "mainClass": "LargestSumofAverages",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestRange",
+            "request": "launch",
+            "mainClass": "SmallestRange",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainsDuplicateIII",
+            "request": "launch",
+            "mainClass": "ContainsDuplicateIII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimePalindrome",
+            "request": "launch",
+            "mainClass": "PrimePalindrome",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountPrimes",
+            "request": "launch",
+            "mainClass": "CountPrimes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DivideTwoIntegers",
+            "request": "launch",
+            "mainClass": "DivideTwoIntegers",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FractiontoRecurringDecimal",
+            "request": "launch",
+            "mainClass": "FractiontoRecurringDecimal",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeSumQueryMutable",
+            "request": "launch",
+            "mainClass": "RangeSumQueryMutable",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofLongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "NumberofLongestIncreasingSubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestUncommonSubsequenceII",
+            "request": "launch",
+            "mainClass": "LongestUncommonSubsequenceII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumProductSubarray",
+            "request": "launch",
+            "mainClass": "MaximumProductSubarray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GridIllumination",
+            "request": "launch",
+            "mainClass": "GridIllumination",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestRectangleEnclosingBlackPixels",
+            "request": "launch",
+            "mainClass": "SmallestRectangleEnclosingBlackPixels",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumSizeSubarraySum",
+            "request": "launch",
+            "mainClass": "MinimumSizeSubarraySum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuperPow",
+            "request": "launch",
+            "mainClass": "SuperPow",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BitwiseANDofNumbersRange",
             "request": "launch",
             "mainClass": "BitwiseANDofNumbersRange",
