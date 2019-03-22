@@ -2,6 +2,160 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IntegertoEnglishWords",
+            "request": "launch",
+            "mainClass": "IntegertoEnglishWords",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumbersWithRepeatedDigits",
+            "request": "launch",
+            "mainClass": "NumbersWithRepeatedDigits",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ErecttheFence",
+            "request": "launch",
+            "mainClass": "ErecttheFence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IPO",
+            "request": "launch",
+            "mainClass": "IPO",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveBoxes",
+            "request": "launch",
+            "mainClass": "RemoveBoxes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TallestBillboard",
+            "request": "launch",
+            "mainClass": "TallestBillboard",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CapacityToShipPackagesWithinDDays",
+            "request": "launch",
+            "mainClass": "CapacityToShipPackagesWithinDDays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SudokuSolver",
+            "request": "launch",
+            "mainClass": "SudokuSolver",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StrangePrinter",
+            "request": "launch",
+            "mainClass": "StrangePrinter",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeModule",
+            "request": "launch",
+            "mainClass": "RangeModule",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DataStreamasDisjointIntervals",
+            "request": "launch",
+            "mainClass": "DataStreamasDisjointIntervals",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumDominoRotationsForEqualRow",
+            "request": "launch",
+            "mainClass": "MinimumDominoRotationsForEqualRow",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClumsyFactorial",
+            "request": "launch",
+            "mainClass": "ClumsyFactorial",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakingALargeIsland",
+            "request": "launch",
+            "mainClass": "MakingALargeIsland",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FreedomTrail",
+            "request": "launch",
+            "mainClass": "FreedomTrail",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FallingSquares",
+            "request": "launch",
+            "mainClass": "FallingSquares",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofAtoms",
+            "request": "launch",
+            "mainClass": "NumberofAtoms",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainVirus",
+            "request": "launch",
+            "mainClass": "ContainVirus",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RectangleAreaII",
+            "request": "launch",
+            "mainClass": "RectangleAreaII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxChunksToMakeSortedII",
+            "request": "launch",
+            "mainClass": "MaxChunksToMakeSortedII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDistinctIslandsII",
+            "request": "launch",
+            "mainClass": "NumberofDistinctIslandsII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordAbbreviation",
+            "request": "launch",
+            "mainClass": "WordAbbreviation",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DeleteColumnstoMakeSortedIII",
             "request": "launch",
             "mainClass": "DeleteColumnstoMakeSortedIII",
