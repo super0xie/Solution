@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - WildcardMatching",
+            "request": "launch",
+            "mainClass": "WildcardMatching",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JumpGameII",
+            "request": "launch",
+            "mainClass": "JumpGameII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestValidParentheses",
+            "request": "launch",
+            "mainClass": "LongestValidParentheses",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubstringwithConcatenationofAllWords",
+            "request": "launch",
+            "mainClass": "SubstringwithConcatenationofAllWords",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueLetterString",
+            "request": "launch",
+            "mainClass": "UniqueLetterString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PatchingArray",
+            "request": "launch",
+            "mainClass": "PatchingArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountofRangeSum",
+            "request": "launch",
+            "mainClass": "CountofRangeSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestSightseeingPair",
+            "request": "launch",
+            "mainClass": "BestSightseeingPair",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IntegertoEnglishWords",
             "request": "launch",
             "mainClass": "IntegertoEnglishWords",
