@@ -2,6 +2,181 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaximumSumofTwoNonOverlappingSubarrays",
+            "request": "launch",
+            "mainClass": "MaximumSumofTwoNonOverlappingSubarrays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LFUCache",
+            "request": "launch",
+            "mainClass": "LFUCache",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArithmeticSlicesIISubsequence",
+            "request": "launch",
+            "mainClass": "ArithmeticSlicesIISubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "SplitArrayLargestSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PerfectRectangle",
+            "request": "launch",
+            "mainClass": "PerfectRectangle",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SelfCrossing",
+            "request": "launch",
+            "mainClass": "SelfCrossing",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestDistancefromAllBuildings",
+            "request": "launch",
+            "mainClass": "ShortestDistancefromAllBuildings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromePairs",
+            "request": "launch",
+            "mainClass": "PalindromePairs",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RecoveraTreeFromPreorderTraversal",
+            "request": "launch",
+            "mainClass": "RecoveraTreeFromPreorderTraversal",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestArithmeticSequence",
+            "request": "launch",
+            "mainClass": "LongestArithmeticSequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TheSkylineProblem",
+            "request": "launch",
+            "mainClass": "TheSkylineProblem",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlienDictionary",
+            "request": "launch",
+            "mainClass": "AlienDictionary",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPalindrome",
+            "request": "launch",
+            "mainClass": "ShortestPalindrome",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDigitOne",
+            "request": "launch",
+            "mainClass": "NumberofDigitOne",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxPointsonaLine",
+            "request": "launch",
+            "mainClass": "MaxPointsonaLine",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromePartitioningII",
+            "request": "launch",
+            "mainClass": "PalindromePartitioningII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VideoStitching",
+            "request": "launch",
+            "mainClass": "VideoStitching",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordLadderII",
+            "request": "launch",
+            "mainClass": "WordLadderII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistinctSubsequences",
+            "request": "launch",
+            "mainClass": "DistinctSubsequences",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InterleavingString",
+            "request": "launch",
+            "mainClass": "InterleavingString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RecoverBinarySearchTree",
+            "request": "launch",
+            "mainClass": "RecoverBinarySearchTree",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScrambleString",
+            "request": "launch",
+            "mainClass": "ScrambleString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestRectangleinHistogram",
+            "request": "launch",
+            "mainClass": "LargestRectangleinHistogram",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "MinimumWindowSubstring",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TextJustification",
+            "request": "launch",
+            "mainClass": "TextJustification",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WildcardMatching",
             "request": "launch",
             "mainClass": "WildcardMatching",
