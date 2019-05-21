@@ -3,8 +3,6 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
-import apple.laf.JRSUIConstants.State;
-
 public class SwapAdjacentinLRString {
 
     

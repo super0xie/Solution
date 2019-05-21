@@ -2,6 +2,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LastStoneWeightII",
+            "request": "launch",
+            "mainClass": "LastStoneWeightII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestStringChain",
+            "request": "launch",
+            "mainClass": "LongestStringChain",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PancakeSorting",
+            "request": "launch",
+            "mainClass": "PancakeSorting",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentAttendanceRecordII",
+            "request": "launch",
+            "mainClass": "StudentAttendanceRecordII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestRotationwithHighestScore",
+            "request": "launch",
+            "mainClass": "SmallestRotationwithHighestScore",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KthSmallestNumberinMultiplicationTable",
+            "request": "launch",
+            "mainClass": "KthSmallestNumberinMultiplicationTable",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PartitionArrayforMaximumSum",
+            "request": "launch",
+            "mainClass": "PartitionArrayforMaximumSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlowerPlantingWithNoAdjacent",
+            "request": "launch",
+            "mainClass": "FlowerPlantingWithNoAdjacent",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CutOffTreesforGolfEvent",
+            "request": "launch",
+            "mainClass": "CutOffTreesforGolfEvent",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumCosttoMergeStones",
+            "request": "launch",
+            "mainClass": "MinimumCosttoMergeStones",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DesignInMemoryFileSystem",
+            "request": "launch",
+            "mainClass": "DesignInMemoryFileSystem",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AccountsMerge",
+            "request": "launch",
+            "mainClass": "AccountsMerge",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaximumSumofTwoNonOverlappingSubarrays",
             "request": "launch",
             "mainClass": "MaximumSumofTwoNonOverlappingSubarrays",

@@ -9,6 +9,7 @@ public class NumberofMatchingSubsequences {
     public int numMatchingSubseqSlow(String S, String[] words) {
         int res = 0;
         TreeSet<Integer>[] arr = new TreeSet[26];
+        
         for(int i = 0; i < S.length(); i++) {
             if(arr[S.charAt(i)-'a'] == null) arr[S.charAt(i)-'a'] = new TreeSet<Integer>();
             arr[S.charAt(i)-'a'].add(i);
