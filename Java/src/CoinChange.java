@@ -1,6 +1,6 @@
 
 public class CoinChange {
-	public int coinChange(int[] coins, int amount) {
+	public int coinChangeOld(int[] coins, int amount) {
 		if(amount == 0) return 0;
 		
 		int [] dp = new int [amount+1];
@@ -24,6 +24,28 @@ public class CoinChange {
 		if(dp[amount] == 0) return -1;
 		else return dp[amount];
         
+    }
+
+    public int coinChange(int[] coins, int amount) {
+		if(amount == 0) return 0;
+		
+		int [] dp = new int [amount+1];
+		for(int i : coins) {
+			if(i <= amount) dp[i] = 1;
+		}
+		
+		for(int i = 1; i <= amount; i++) {
+			if(dp[i] != 0) continue;
+			dp[i] = Integer.MAX_VALUE;
+			for(int j : coins) {
+				if(i - j > 0 && dp[i-j] != Integer.MAX_VALUE) {
+					dp[i] = Math.min(dp[i], dp[i-j] + 1);
+				}
+			}
+		}
+		
+		if(dp[amount] == Integer.MAX_VALUE) return -1;
+		else return dp[amount];
     }
 	
 	public static void main(String[] args) {

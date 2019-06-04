@@ -2,6 +2,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LexicographicallySmallestEquivalentString",
+            "request": "launch",
+            "mainClass": "LexicographicallySmallestEquivalentString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CampusBikes",
+            "request": "launch",
+            "mainClass": "CampusBikes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IndexPairsofaString",
+            "request": "launch",
+            "mainClass": "IndexPairsofaString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GreatestCommonDivisorofStrings",
+            "request": "launch",
+            "mainClass": "GreatestCommonDivisorofStrings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistantBarcodes",
+            "request": "launch",
+            "mainClass": "DistantBarcodes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpiralMatrixII",
+            "request": "launch",
+            "mainClass": "SpiralMatrixII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestTimetoBuyandSellStockwithCooldown",
+            "request": "launch",
+            "mainClass": "BestTimetoBuyandSellStockwithCooldown",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestTimetoBuyandSellStockwithTransactionFee",
+            "request": "launch",
+            "mainClass": "BestTimetoBuyandSellStockwithTransactionFee",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestDuplicateSubstring",
+            "request": "launch",
+            "mainClass": "LongestDuplicateSubstring",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LastStoneWeightII",
             "request": "launch",
             "mainClass": "LastStoneWeightII",

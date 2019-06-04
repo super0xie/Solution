@@ -15,7 +15,6 @@ public class LastStoneWeightII {
                 cur.add(p + stones[i]);
                 cur.add(p - stones[i]);
             }
-
             pre = cur;
         }
 

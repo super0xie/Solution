@@ -14,7 +14,6 @@ public class OutputContestMatches {
         		strs[i] = "(" + str1 + "," + str2 + ")";
         	}
         	n = n/2;
-        	
         }
         
         return strs[0];

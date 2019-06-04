@@ -15,7 +15,7 @@ public class InsertionSortList {
             if(n.val < sortedHead.val) {
                 n.next = sortedHead;
                 sortedHead = n;
-            }else {
+            } else {
                 ListNode p = sortedHead;
                 while(p != null) {
                     if(p.val <= n.val && (p.next == null || n.val <= p.next.val)) {

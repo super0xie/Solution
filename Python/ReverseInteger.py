@@ -22,8 +22,6 @@ class Solution(object):
         return result
 
 
-
-
 if __name__ == "__main__":
     test = Solution()
     print(test.reverse(-123))
