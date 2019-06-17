@@ -1,16 +1,17 @@
+import string
+
 class Solution:
 
     def smallestEquivalentString(self, A: str, B: str, S: str) -> str:
         res = ""
-        uf = [0] * 26
-        for i in range(26):
-            uf[i] = i
+        
+        uf = {s: s for s in string.ascii_lowercase}
         
         for i in range(len(A)):
-            self.union(uf, ord(A[i])-ord('a'), ord(B[i])-ord('a'))
+            self.union(uf, A[i], B[i])
 
         for i in range(len(S)):
-            res = res + chr(ord('a') + self.getRoot(uf, ord(S[i])-ord('a')))
+            res = res + self.getRoot(uf, S[i])
         return res
         
     def getRoot(self, uf, i):

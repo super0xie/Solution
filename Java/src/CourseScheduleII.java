@@ -31,8 +31,6 @@ public class CourseScheduleII {
         	result[index++] = stack.pop();
         }
         
-        
-        
         return result;
     }
 	
