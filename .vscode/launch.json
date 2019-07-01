@@ -1,5 +1,139 @@
 {
     "configurations": [
+        
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindinMountainArray",
+            "request": "launch",
+            "mainClass": "FindinMountainArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BraceExpansionII",
+            "request": "launch",
+            "mainClass": "BraceExpansionII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CarPooling",
+            "request": "launch",
+            "mainClass": "CarPooling",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestCommonSupersequence",
+            "request": "launch",
+            "mainClass": "ShortestCommonSupersequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPathinBinaryMatrix",
+            "request": "launch",
+            "mainClass": "ShortestPathinBinaryMatrix",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestValuesFromLabels",
+            "request": "launch",
+            "mainClass": "LargestValuesFromLabels",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofSubmatricesThatSumtoTarget",
+            "request": "launch",
+            "mainClass": "NumberofSubmatricesThatSumtoTarget",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofValidSubarrays",
+            "request": "launch",
+            "mainClass": "NumberofValidSubarrays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimizeRoundingErrortoMeetTarget",
+            "request": "launch",
+            "mainClass": "MinimizeRoundingErrortoMeetTarget",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestSubsequenceofDistinctCharacters",
+            "request": "launch",
+            "mainClass": "SmallestSubsequenceofDistinctCharacters",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LetterTilePossibilities",
+            "request": "launch",
+            "mainClass": "LetterTilePossibilities",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddingTwoNegabinaryNumbers",
+            "request": "launch",
+            "mainClass": "AddingTwoNegabinaryNumbers",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CampusBikesII",
+            "request": "launch",
+            "mainClass": "CampusBikesII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AllPathsfromSourceLeadtoDestination",
+            "request": "launch",
+            "mainClass": "AllPathsfromSourceLeadtoDestination",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestRepeatingSubstring",
+            "request": "launch",
+            "mainClass": "LongestRepeatingSubstring",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlipColumnsForMaximumNumberofEqualRows",
+            "request": "launch",
+            "mainClass": "FlipColumnsForMaximumNumberofEqualRows",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MissingElementinSortedArray",
+            "request": "launch",
+            "mainClass": "MissingElementinSortedArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestWaytoFormString",
+            "request": "launch",
+            "mainClass": "ShortestWaytoFormString",
+            "projectName": "Solution"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - LexicographicallySmallestEquivalentString",
