@@ -1,6 +1,138 @@
 {
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConnectingCitiesWithMinimumCost",
+            "request": "launch",
+            "mainClass": "ConnectingCitiesWithMinimumCost",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BuildingH2O",
+            "request": "launch",
+            "mainClass": "BuildingH2O",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPathwithAlternatingColors",
+            "request": "launch",
+            "mainClass": "ShortestPathwithAlternatingColors",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumCostTreeFromLeafValues",
+            "request": "launch",
+            "mainClass": "MinimumCostTreeFromLeafValues",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintZeroEvenOdd",
+            "request": "launch",
+            "mainClass": "PrintZeroEvenOdd",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintFooBarAlternately",
+            "request": "launch",
+            "mainClass": "PrintFooBarAlternately",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestSufficientTeam",
+            "request": "launch",
+            "mainClass": "SmallestSufficientTeam",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestWellPerformingInterval",
+            "request": "launch",
+            "mainClass": "LongestWellPerformingInterval",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DivideArrayIntoIncreasingSequences",
+            "request": "launch",
+            "mainClass": "DivideArrayIntoIncreasingSequences",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDaysinaMonth",
+            "request": "launch",
+            "mainClass": "NumberofDaysinaMonth",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintinOrder",
+            "request": "launch",
+            "mainClass": "PrintinOrder",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CorporateFlightBookings",
+            "request": "launch",
+            "mainClass": "CorporateFlightBookings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumNestingDepthofTwoValidParenthesesStrings",
+            "request": "launch",
+            "mainClass": "MaximumNestingDepthofTwoValidParenthesesStrings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ParsingABooleanExpression",
+            "request": "launch",
+            "mainClass": "ParsingABooleanExpression",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FillingBookcaseShelves",
+            "request": "launch",
+            "mainClass": "FillingBookcaseShelves",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PathWithMaximumMinimumValue",
+            "request": "launch",
+            "mainClass": "PathWithMaximumMinimumValue",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindKLengthSubstringsWithNoRepeatedCharacters",
+            "request": "launch",
+            "mainClass": "FindKLengthSubstringsWithNoRepeatedCharacters",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PathInZigzagLabelledBinaryTree",
+            "request": "launch",
+            "mainClass": "PathInZigzagLabelledBinaryTree",
+            "projectName": "Solution"
+        },
         {
             "name": "Python: Current File",
             "type": "python",

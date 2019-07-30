@@ -5,6 +5,7 @@ import java.util.Stack;
 public class AlienDictionary {
 
     private boolean containCycle = false;
+    
     public String alienOrder(String[] words) {
         HashSet<Integer>[] graph = new HashSet[26];
         

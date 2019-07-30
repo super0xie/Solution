@@ -54,7 +54,6 @@ public class SolvetheEquation {
         if(a == 0 && b != 0) return "No solution";
         if(a == 0 && b == 0) return "Infinite solutions";
         
-        
         int res = -b/a;
         return "x=" + String.valueOf(res);
     }

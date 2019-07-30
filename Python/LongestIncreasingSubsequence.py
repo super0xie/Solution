@@ -7,7 +7,7 @@ class Solution:
         """
         if len(nums) == 0: return 0
         dp = [0] * len(nums)
-        dp[len(nums)-1] = 1;
+        dp[len(nums)-1] = 1
         res = 1
 
         for i in reversed(range(len(nums)-1)):
