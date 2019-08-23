@@ -27,7 +27,7 @@ public class AddandSearchWordDatastructuredesign{
         if(str.charAt(idx) == '.'){
             for(Node next : n.next){
                 if(next != null){
-                    if(search(str, idx+1, next)) return true; 
+                    if(search(str, idx+1, next)) return true;
                 }
             }
             return false;

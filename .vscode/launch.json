@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NumberOfDaysToLevelUpBadge",
+            "request": "launch",
+            "mainClass": "NumberOfDaysToLevelUpBadge",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AsFarfromLandasPossible",
+            "request": "launch",
+            "mainClass": "AsFarfromLandasPossible",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDiceRollsWithTargetSum",
+            "request": "launch",
+            "mainClass": "NumberofDiceRollsWithTargetSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestChunkedPalindromeDecomposition",
+            "request": "launch",
+            "mainClass": "LongestChunkedPalindromeDecomposition",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SnapshotArray",
+            "request": "launch",
+            "mainClass": "SnapshotArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DecreaseElementsToMakeArrayZigzag",
+            "request": "launch",
+            "mainClass": "DecreaseElementsToMakeArrayZigzag",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "LongestCommonSubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StoneGameII",
+            "request": "launch",
+            "mainClass": "StoneGameII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Largest1BorderedSquare",
+            "request": "launch",
+            "mainClass": "Largest1BorderedSquare",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NthTribonacciNumber",
+            "request": "launch",
+            "mainClass": "NthTribonacciNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConnectingCitiesWithMinimumCost",
             "request": "launch",
             "mainClass": "ConnectingCitiesWithMinimumCost",
