@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AnalyzeUserWebsiteVisitPattern",
+            "request": "launch",
+            "mainClass": "AnalyzeUserWebsiteVisitPattern",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddStrings",
+            "request": "launch",
+            "mainClass": "AddStrings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AdvantageShuffle",
+            "request": "launch",
+            "mainClass": "AdvantageShuffle",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AndroidUnlockPatterns",
+            "request": "launch",
+            "mainClass": "AndroidUnlockPatterns",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumberOfDaysToLevelUpBadge",
             "request": "launch",
             "mainClass": "NumberOfDaysToLevelUpBadge",
