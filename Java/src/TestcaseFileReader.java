@@ -28,6 +28,27 @@ public class TestcaseFileReader {
 		return res;
 	}
 	
+	public static ArrayList<int[]> getIntArrays(String path){
+		ArrayList<int[]> res = new ArrayList<>();
+		File file = new File(path);
+		try {
+			Scanner sc = new Scanner(file);
+			while(sc.hasNext()) {
+				String str = sc.nextLine();
+				String[] nums = str.split(",");
+				int[] arr = new int[nums.length];
+				for(int i = 0; i < nums.length; i++) arr[i] = Integer.parseInt(nums[i]);
+				res.add(arr);
+			}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return res;
+	}
+	
 	public static List<List<Integer>> getListArrays(){
 		ArrayList<List<Integer>> res = new ArrayList<>();
 		File file = new File("C:\\Users\\sxie\\Desktop\\work\\Solution\\Java\\src\\testcase");

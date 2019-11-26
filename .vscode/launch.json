@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaximumSubarray",
+            "request": "launch",
+            "mainClass": "MaximumSubarray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimeArrangements",
+            "request": "launch",
+            "mainClass": "PrimeArrangements",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AnalyzeUserWebsiteVisitPattern",
             "request": "launch",
             "mainClass": "AnalyzeUserWebsiteVisitPattern",
