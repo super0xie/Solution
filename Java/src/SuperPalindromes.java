@@ -1,0 +1,54 @@
+import java.util.Arrays;
+import java.util.Collections;
+
+public class SuperPalindromes {
+	private long[] res = {0l, 1l, 4l, 9l, 121l, 484l, 676l, 10201l, 12321l, 14641l, 40804l, 44944l, 69696l, 94249l, 698896l, 1002001l, 1234321l, 
+		    4008004l, 5221225l, 6948496l, 100020001l, 102030201l, 104060401l, 121242121l, 123454321l, 125686521l, 400080004l, 
+		    404090404l, 522808225l, 617323716l, 942060249l, 10000200001l, 10221412201l, 12102420121l, 12345654321l, 
+		    40000800004l, 637832238736l, 1000002000001l, 1002003002001l, 1004006004001l, 1020304030201l, 1022325232201l, 
+		    1024348434201l, 1086078706801l, 1210024200121l, 1212225222121l, 1214428244121l, 1230127210321l, 1232346432321l, 
+		    1234567654321l, 1615108015161l, 4000008000004l, 4004009004004l, 4051154511504l, 5265533355625l, 9420645460249l, 
+		    100000020000001l, 100220141022001l, 102012040210201l, 102234363432201l, 121000242000121l, 121242363242121l, 
+		    123212464212321l, 123456787654321l, 123862676268321l, 144678292876441l, 165551171155561l, 400000080000004l, 
+		    900075181570009l, 4099923883299904l, 10000000200000001l, 10002000300020001l, 10004000600040001l, 10020210401202001l, 
+		    10022212521222001l, 10024214841242001l, 10201020402010201l, 10203040504030201l, 10205060806050201l, 
+		    10221432623412201l, 10223454745432201l, 12100002420000121l, 12102202520220121l, 12104402820440121l, 
+		    12120030703002121l, 12122232623222121l, 12124434743442121l, 12321024642012321l, 12323244744232321l, 
+		    12341234943214321l, 12343456865434321l, 12345678987654321l, 40000000800000004l, 40004000900040004l, 94206450305460249l};
+	
+	
+	public int superpalindromesInRange(String L, String R) {
+        long l = Long.parseLong(L);
+        long r = Long.parseLong(R);
+        
+        int start = Arrays.binarySearch(res, l);
+        if(start < 0) start = -start-1;
+        int end = Arrays.binarySearch(res, r);
+        if(end < 0) end = -end-2;
+        int ret = 0;
+        
+        for(int i = start; i <= end; i++) {
+        	long sqrt = (long)Math.sqrt(res[i]);
+        	if(valid(sqrt)) ret++;
+        }
+        
+        return ret;
+    }
+	
+	private boolean valid(long n) {
+		String str = String.valueOf(n);
+		int i = 0;
+		int j = str.length()-1;
+		while(i < j) {
+			if(str.charAt(i++) != str.charAt(j--)) return false;
+		}
+		return true;
+	}
+	
+	public static void main(String[] args) {
+		SuperPalindromes test = new SuperPalindromes();
+		System.out.println(test.superpalindromesInRange("4", "1000"));
+		
+		
+	}
+}
