@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 
 public class DesignSearchAutocompleteSystem {
@@ -120,7 +119,7 @@ public class DesignSearchAutocompleteSystem {
 	private Node cur;
 	private StringBuilder sb;
 	
-	private Comparator<StrWithCount> cmp = new Comparator<>() {
+	private Comparator<StrWithCount> cmp = new Comparator<StrWithCount>() {
 
 		@Override
 		public int compare(StrWithCount o1, StrWithCount o2) {

@@ -29,8 +29,4 @@ public class ApplyDiscountEverynOrders {
         return sum;
     }
     
-    public static void main(String[] args) {
-        ApplyDiscountEverynOrders test = new ApplyDiscountEverynOrders();
-        System.out.println(1-0.5d);
-    }
 }
