@@ -10,11 +10,11 @@ public class MergeIntervals {
         Collections.sort(intervals, new Comparator<Interval>() {
             @Override
             public int compare(Interval o1, Interval o2) {
-                // TODO Auto-generated method stub
                 if(o1.start > o2.start) return 1;
                 else if (o1.start < o2.start) return -1;
                 return 0;
-            }});
+            }
+        });
         
         
         ArrayList<Interval> result = new ArrayList<Interval>();
@@ -28,7 +28,6 @@ public class MergeIntervals {
             }
             
             if(last.end >= interval.start) {
-                //merge
                 if(last.end < interval.end) last.end = interval.end;
             }else {
                 last = new Interval(interval.start, interval.end);
@@ -37,7 +36,6 @@ public class MergeIntervals {
         }
         
         return result;
-        
     }
 
 }

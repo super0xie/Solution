@@ -7,7 +7,7 @@ public class AllPossibleFullBinaryTrees {
 	private int N;
 	private TreeNode root;
 	
-    public List<TreeNode> allPossibleFBT(int N) {
+    public List<TreeNode> allPossibleFBTOld(int N) {
     	this.N = N;
         result = new ArrayList<TreeNode>();
         root = new TreeNode(0);
@@ -78,6 +78,31 @@ public class AllPossibleFullBinaryTrees {
     	
     	return copy;
 
+	}
+	
+
+	public List<TreeNode> allPossibleFBT(int N) {
+		List<TreeNode> res = new ArrayList<>();
+		
+		if(N == 1) {
+			res.add(new TreeNode(0));
+			return res;
+		}else{
+			for(int i = 1; i <= N-2; i += 2){
+				List<TreeNode> left = allPossibleFBT(i);
+				List<TreeNode> right = allPossibleFBT(N-1-i);
+
+				for(int j = 0; j < left.size(); j++){
+					for(int k = 0; k < right.size(); k++){
+						TreeNode r = new TreeNode(0);
+						r.left = left.get(j);
+						r.right =right.get(k);
+						res.add(r);
+					}
+				}
+			}
+			return res;
+		}
     }
     
     public static void main(String[] args) {

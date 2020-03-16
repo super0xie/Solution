@@ -1,6 +1,6 @@
 
 public class HouseRobberII {
-	public int rob(int[] nums) {
+	public int robOld(int[] nums) {
 		if(nums.length == 0) return 0;
         if(nums.length == 1) return nums[0];
         if(nums.length == 2) return Math.max(nums[0], nums[1]);
@@ -34,6 +34,40 @@ public class HouseRobberII {
         }
         res = Math.max(res, Math.max(adp[nums.length-1], bdp[nums.length-1]));
         
+        return res;
+    }
+
+
+    public int rob(int[] nums) {
+		if(nums.length == 0) return 0;
+        if(nums.length == 1) return nums[0];
+        if(nums.length == 2) return Math.max(nums[0], nums[1]);
+        
+        //rob first
+        int a = nums[0];
+        int b = nums[0];
+        int res = 0;
+
+        for(int i = 2; i < nums.length-1; i++){
+            int aa = nums[i] + b;
+			int bb = Math.max(a, b);
+			a = aa;
+			b = bb;
+        }
+
+        res = Math.max(a, b);
+        //skip first
+        a = nums[1];
+        b = 0;
+
+        for(int i = 2; i < nums.length; i++){
+            int aa = nums[i] + b;
+			int bb = Math.max(a, b);
+			a = aa;
+			b = bb;
+        }
+
+        res = Math.max(res, Math.max(a, b));
         return res;
     }
 	

@@ -19,4 +19,7 @@ class Solution:
             return [r[0], root]
 
 
+print(type(Solution.splitBST))
+
+
 

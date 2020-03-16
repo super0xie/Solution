@@ -1,15 +1,47 @@
 import java.util.ArrayList;
 
 public class DeleteColumnstoMakeSortedII {
-	
+
 	public int minDeletionSize(String[] A) {
-        
         ArrayList<String> l = new ArrayList<>();
         for(String str : A) {
         	l.add(str);
-        }
-        boolean [] needDelete = new boolean[A[0].length()];
-        minDeletionSize(l, 0, needDelete);
+		}
+		ArrayList<ArrayList<String>> groups = new ArrayList<>();
+		groups.add(l);
+
+		int len = A[0].length();
+		boolean [] needDelete = new boolean[A[0].length()];
+		
+		for(int i = 0; i < len; i++){
+			boolean cont = false;
+			ArrayList<ArrayList<String>> aux = new ArrayList<>();
+			for(ArrayList<String> group : groups){
+				boolean[] res = inorder(group, i);
+				if(!res[0]){
+					needDelete[i] = true;
+					aux = groups;
+					cont = true;
+					break;
+				}else if(!res[1]){
+					cont = true;
+					for(int j = 0; j < group.size()-1; j++){
+						int k = j+1;
+						while(k < group.size() && group.get(k).charAt(i) == group.get(k-1).charAt(i)) k++;
+						if(k-j > 1){
+							ArrayList<String> curr = new ArrayList<>();
+							for(int n = j; n < k; n++){
+								curr.add(group.get(n));
+							}
+							aux.add(curr);
+						}
+					}
+				}
+			}
+			if(!cont) break;
+			else groups = aux;
+		}
+
         int count = 0;
 		for(int j = 0; j < needDelete.length; j++) {
 			if(needDelete[j]) count++;
@@ -17,32 +49,7 @@ public class DeleteColumnstoMakeSortedII {
 		return count;
     }
 	
-	public void minDeletionSize(ArrayList<String> l, int start, boolean [] needDelete) {
-        for(int i = start; i < l.get(0).length() ; i++) {
-        	boolean [] ret = inorder(l, i);
-        	if(!ret[0]) needDelete[i] = true;
-        	else {
-        		if(ret[1]) return;
-        		
-        		int rest = 0;
-        		for(int j = 0; j < l.size()-1; j++) {
-        			int k = j+1;
-        			while(k < l.size() && l.get(k).charAt(i) == l.get(j).charAt(i)) {
-        				k++;
-        			}
-        			if(k - j > 1) {
-        				ArrayList<String> aux = new ArrayList<>();
-        				for(int n = j; n < k; n++) {
-        					aux.add(l.get(n));
-        				}
-        				minDeletionSize(aux, i+1, needDelete);
-        				j = k-1;
-        			}
-        		}
-    			return;
-        	}
-        }
-    }
+
 	
 	private boolean[] inorder(ArrayList<String> l, int idx) {
 		boolean strict = true;

@@ -18,10 +18,8 @@ public class UniquePathsII {
         }
         for(int i = 1; i < m; i++) {
             for(int j = 1; j < n; j++) {
-            	if(obstacleGrid[i][j] == 1)
-            		matrix[i][j] = 0;
-            	else
-            		matrix[i][j] = matrix[i-1][j] + matrix[i][j-1];
+            	if(obstacleGrid[i][j] == 1) matrix[i][j] = 0;
+            	else matrix[i][j] = matrix[i-1][j] + matrix[i][j-1];
             }
         }
         

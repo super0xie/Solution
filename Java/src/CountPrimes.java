@@ -2,7 +2,7 @@
 
 public class CountPrimes {
 	
-	public int countPrimes(int n) {
+	public int countPrimesOld(int n) {
 		
 		if(n <= 3)
 			return 0;
@@ -14,6 +14,26 @@ public class CountPrimes {
         }
         
         return counter;
+	}
+	
+	public int countPrimes(int n) {
+		if(n <= 2)
+			return 0;
+
+		boolean[] dp = new boolean [n];
+		int res = 0;
+		for(int i = 2; i < n; i++){
+			if(dp[i]) {
+				continue;
+			} else{
+				res++;
+				for(int j = 2; i * j < n; j++){
+					dp[i*j] = true;
+				}
+			}
+		}
+
+        return res;
     }
 	
 	private boolean isPrime(int num) {
@@ -27,7 +47,7 @@ public class CountPrimes {
 	
 	public static void main(String[] args) {
 		CountPrimes cp = new CountPrimes();
-		System.out.println(cp.countPrimes(1500000));
+		System.out.println(cp.countPrimes(6));
 	}
 
 }

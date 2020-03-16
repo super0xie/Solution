@@ -16,10 +16,8 @@ public class FriendCircles {
         }
         
         HashSet<Integer> set = new HashSet<>();
-        for(int i = 0; i < n; i++) {
-            set.add(root(uf, i));
-        }
-        
+        for(int i = 0; i < n; i++) set.add(root(uf, i));
+
         return set.size();
     }
     
@@ -36,9 +34,7 @@ public class FriendCircles {
         int ri = root(uf, i);
         int rj = root(uf, j);
         
-        if(ri != rj) {
-            uf[ri] = rj;
-        }
+        if(ri != rj) uf[ri] = rj;
     }
     
     

@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.TreeMap;
 
 public class MeetingRoomsII {
 	
@@ -27,10 +28,25 @@ public class MeetingRoomsII {
         	if(result > maxResult) maxResult = result;
         }
         
-        
-        
-        
         return maxResult;
+	}
+	
+	public int minMeetingRooms(int[][] intervals) {
+		TreeMap<Integer, Integer> map = new TreeMap<>();
+
+		for(int[] i : intervals){
+			map.put(i[0], map.getOrDefault(i[0], 0) + 1);
+			map.put(i[1], map.getOrDefault(i[1], 0) - 1);
+		}
+
+		int res = 0;
+		int sum = 0;
+		for(int i : map.keySet()){
+			sum += map.get(i);
+			res = Math.max(res, sum);
+		}
+
+        return res;
     }
 	
 	public static void main(String[] args) {
@@ -41,7 +57,6 @@ public class MeetingRoomsII {
 		
 		Interval[] in = {i1,i2,i3};
 		test.minMeetingRooms(in);
-		
 	}
 	
 }

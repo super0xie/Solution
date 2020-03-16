@@ -81,7 +81,6 @@ public class AccountsMerge {
         		person.add(email);
         	}
         	ret.add(person);
-        	
         }
         return ret;
     }

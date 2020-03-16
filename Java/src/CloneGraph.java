@@ -1,27 +1,39 @@
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.List;
 
 public class CloneGraph {
+
+    class Node {
+        public int val;
+        public List<Node> neighbors;
     
-    HashMap<Integer, UndirectedGraphNode> set;
+        public Node() {}
     
-    public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+        public Node(int _val,List<Node> _neighbors) {
+            val = _val;
+            neighbors = _neighbors;
+        }
+    }
+
+    private HashMap<Integer, Node> set;
+    
+    public Node cloneGraph(Node node) {
         if(node == null) return null;
-        set = new HashMap<Integer, UndirectedGraphNode>();
+        set = new HashMap<Integer, Node>();
         return cloneGraphHelper(node);
     }
     
-    private UndirectedGraphNode cloneGraphHelper(UndirectedGraphNode node) {
-        if(set.containsKey(node.label)) return set.get(node.label);
+    private Node cloneGraphHelper(Node node) {
+        if(set.containsKey(node.val)) return set.get(node.val);
 
-        UndirectedGraphNode copy = new UndirectedGraphNode(node.label);
-        set.put(node.label, copy);
-        for(UndirectedGraphNode n : node.neighbors) {
+        Node copy = new Node(node.val, new ArrayList<>());
+        set.put(node.val, copy);
+        for(Node n : node.neighbors) {
             copy.neighbors.add(cloneGraphHelper(n));
         }
         
         return copy;
-
     }
 
 }

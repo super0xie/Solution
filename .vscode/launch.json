@@ -1,0 +1,1334 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "MajorityElement",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StickerstoSpellWord",
+            "request": "launch",
+            "mainClass": "StickerstoSpellWord",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AdditiveNumber",
+            "request": "launch",
+            "mainClass": "AdditiveNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumSubarray",
+            "request": "launch",
+            "mainClass": "MaximumSubarray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimeArrangements",
+            "request": "launch",
+            "mainClass": "PrimeArrangements",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnalyzeUserWebsiteVisitPattern",
+            "request": "launch",
+            "mainClass": "AnalyzeUserWebsiteVisitPattern",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddStrings",
+            "request": "launch",
+            "mainClass": "AddStrings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AdvantageShuffle",
+            "request": "launch",
+            "mainClass": "AdvantageShuffle",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AndroidUnlockPatterns",
+            "request": "launch",
+            "mainClass": "AndroidUnlockPatterns",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberOfDaysToLevelUpBadge",
+            "request": "launch",
+            "mainClass": "NumberOfDaysToLevelUpBadge",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AsFarfromLandasPossible",
+            "request": "launch",
+            "mainClass": "AsFarfromLandasPossible",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDiceRollsWithTargetSum",
+            "request": "launch",
+            "mainClass": "NumberofDiceRollsWithTargetSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestChunkedPalindromeDecomposition",
+            "request": "launch",
+            "mainClass": "LongestChunkedPalindromeDecomposition",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SnapshotArray",
+            "request": "launch",
+            "mainClass": "SnapshotArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DecreaseElementsToMakeArrayZigzag",
+            "request": "launch",
+            "mainClass": "DecreaseElementsToMakeArrayZigzag",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "LongestCommonSubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StoneGameII",
+            "request": "launch",
+            "mainClass": "StoneGameII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Largest1BorderedSquare",
+            "request": "launch",
+            "mainClass": "Largest1BorderedSquare",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NthTribonacciNumber",
+            "request": "launch",
+            "mainClass": "NthTribonacciNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConnectingCitiesWithMinimumCost",
+            "request": "launch",
+            "mainClass": "ConnectingCitiesWithMinimumCost",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BuildingH2O",
+            "request": "launch",
+            "mainClass": "BuildingH2O",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPathwithAlternatingColors",
+            "request": "launch",
+            "mainClass": "ShortestPathwithAlternatingColors",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumCostTreeFromLeafValues",
+            "request": "launch",
+            "mainClass": "MinimumCostTreeFromLeafValues",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintZeroEvenOdd",
+            "request": "launch",
+            "mainClass": "PrintZeroEvenOdd",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintFooBarAlternately",
+            "request": "launch",
+            "mainClass": "PrintFooBarAlternately",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestSufficientTeam",
+            "request": "launch",
+            "mainClass": "SmallestSufficientTeam",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestWellPerformingInterval",
+            "request": "launch",
+            "mainClass": "LongestWellPerformingInterval",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DivideArrayIntoIncreasingSequences",
+            "request": "launch",
+            "mainClass": "DivideArrayIntoIncreasingSequences",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDaysinaMonth",
+            "request": "launch",
+            "mainClass": "NumberofDaysinaMonth",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintinOrder",
+            "request": "launch",
+            "mainClass": "PrintinOrder",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CorporateFlightBookings",
+            "request": "launch",
+            "mainClass": "CorporateFlightBookings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumNestingDepthofTwoValidParenthesesStrings",
+            "request": "launch",
+            "mainClass": "MaximumNestingDepthofTwoValidParenthesesStrings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ParsingABooleanExpression",
+            "request": "launch",
+            "mainClass": "ParsingABooleanExpression",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FillingBookcaseShelves",
+            "request": "launch",
+            "mainClass": "FillingBookcaseShelves",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PathWithMaximumMinimumValue",
+            "request": "launch",
+            "mainClass": "PathWithMaximumMinimumValue",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindKLengthSubstringsWithNoRepeatedCharacters",
+            "request": "launch",
+            "mainClass": "FindKLengthSubstringsWithNoRepeatedCharacters",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PathInZigzagLabelledBinaryTree",
+            "request": "launch",
+            "mainClass": "PathInZigzagLabelledBinaryTree",
+            "projectName": "Solution"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindinMountainArray",
+            "request": "launch",
+            "mainClass": "FindinMountainArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BraceExpansionII",
+            "request": "launch",
+            "mainClass": "BraceExpansionII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CarPooling",
+            "request": "launch",
+            "mainClass": "CarPooling",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestCommonSupersequence",
+            "request": "launch",
+            "mainClass": "ShortestCommonSupersequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPathinBinaryMatrix",
+            "request": "launch",
+            "mainClass": "ShortestPathinBinaryMatrix",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestValuesFromLabels",
+            "request": "launch",
+            "mainClass": "LargestValuesFromLabels",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofSubmatricesThatSumtoTarget",
+            "request": "launch",
+            "mainClass": "NumberofSubmatricesThatSumtoTarget",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofValidSubarrays",
+            "request": "launch",
+            "mainClass": "NumberofValidSubarrays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimizeRoundingErrortoMeetTarget",
+            "request": "launch",
+            "mainClass": "MinimizeRoundingErrortoMeetTarget",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestSubsequenceofDistinctCharacters",
+            "request": "launch",
+            "mainClass": "SmallestSubsequenceofDistinctCharacters",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LetterTilePossibilities",
+            "request": "launch",
+            "mainClass": "LetterTilePossibilities",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddingTwoNegabinaryNumbers",
+            "request": "launch",
+            "mainClass": "AddingTwoNegabinaryNumbers",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CampusBikesII",
+            "request": "launch",
+            "mainClass": "CampusBikesII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AllPathsfromSourceLeadtoDestination",
+            "request": "launch",
+            "mainClass": "AllPathsfromSourceLeadtoDestination",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestRepeatingSubstring",
+            "request": "launch",
+            "mainClass": "LongestRepeatingSubstring",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlipColumnsForMaximumNumberofEqualRows",
+            "request": "launch",
+            "mainClass": "FlipColumnsForMaximumNumberofEqualRows",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MissingElementinSortedArray",
+            "request": "launch",
+            "mainClass": "MissingElementinSortedArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestWaytoFormString",
+            "request": "launch",
+            "mainClass": "ShortestWaytoFormString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LexicographicallySmallestEquivalentString",
+            "request": "launch",
+            "mainClass": "LexicographicallySmallestEquivalentString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CampusBikes",
+            "request": "launch",
+            "mainClass": "CampusBikes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IndexPairsofaString",
+            "request": "launch",
+            "mainClass": "IndexPairsofaString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GreatestCommonDivisorofStrings",
+            "request": "launch",
+            "mainClass": "GreatestCommonDivisorofStrings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistantBarcodes",
+            "request": "launch",
+            "mainClass": "DistantBarcodes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpiralMatrixII",
+            "request": "launch",
+            "mainClass": "SpiralMatrixII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestTimetoBuyandSellStockwithCooldown",
+            "request": "launch",
+            "mainClass": "BestTimetoBuyandSellStockwithCooldown",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestTimetoBuyandSellStockwithTransactionFee",
+            "request": "launch",
+            "mainClass": "BestTimetoBuyandSellStockwithTransactionFee",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestDuplicateSubstring",
+            "request": "launch",
+            "mainClass": "LongestDuplicateSubstring",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LastStoneWeightII",
+            "request": "launch",
+            "mainClass": "LastStoneWeightII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestStringChain",
+            "request": "launch",
+            "mainClass": "LongestStringChain",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PancakeSorting",
+            "request": "launch",
+            "mainClass": "PancakeSorting",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentAttendanceRecordII",
+            "request": "launch",
+            "mainClass": "StudentAttendanceRecordII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestRotationwithHighestScore",
+            "request": "launch",
+            "mainClass": "SmallestRotationwithHighestScore",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KthSmallestNumberinMultiplicationTable",
+            "request": "launch",
+            "mainClass": "KthSmallestNumberinMultiplicationTable",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PartitionArrayforMaximumSum",
+            "request": "launch",
+            "mainClass": "PartitionArrayforMaximumSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlowerPlantingWithNoAdjacent",
+            "request": "launch",
+            "mainClass": "FlowerPlantingWithNoAdjacent",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CutOffTreesforGolfEvent",
+            "request": "launch",
+            "mainClass": "CutOffTreesforGolfEvent",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumCosttoMergeStones",
+            "request": "launch",
+            "mainClass": "MinimumCosttoMergeStones",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DesignInMemoryFileSystem",
+            "request": "launch",
+            "mainClass": "DesignInMemoryFileSystem",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AccountsMerge",
+            "request": "launch",
+            "mainClass": "AccountsMerge",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumSumofTwoNonOverlappingSubarrays",
+            "request": "launch",
+            "mainClass": "MaximumSumofTwoNonOverlappingSubarrays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LFUCache",
+            "request": "launch",
+            "mainClass": "LFUCache",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArithmeticSlicesIISubsequence",
+            "request": "launch",
+            "mainClass": "ArithmeticSlicesIISubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "SplitArrayLargestSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PerfectRectangle",
+            "request": "launch",
+            "mainClass": "PerfectRectangle",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SelfCrossing",
+            "request": "launch",
+            "mainClass": "SelfCrossing",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestDistancefromAllBuildings",
+            "request": "launch",
+            "mainClass": "ShortestDistancefromAllBuildings",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromePairs",
+            "request": "launch",
+            "mainClass": "PalindromePairs",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RecoveraTreeFromPreorderTraversal",
+            "request": "launch",
+            "mainClass": "RecoveraTreeFromPreorderTraversal",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestArithmeticSequence",
+            "request": "launch",
+            "mainClass": "LongestArithmeticSequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TheSkylineProblem",
+            "request": "launch",
+            "mainClass": "TheSkylineProblem",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlienDictionary",
+            "request": "launch",
+            "mainClass": "AlienDictionary",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPalindrome",
+            "request": "launch",
+            "mainClass": "ShortestPalindrome",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDigitOne",
+            "request": "launch",
+            "mainClass": "NumberofDigitOne",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxPointsonaLine",
+            "request": "launch",
+            "mainClass": "MaxPointsonaLine",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromePartitioningII",
+            "request": "launch",
+            "mainClass": "PalindromePartitioningII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VideoStitching",
+            "request": "launch",
+            "mainClass": "VideoStitching",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordLadderII",
+            "request": "launch",
+            "mainClass": "WordLadderII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistinctSubsequences",
+            "request": "launch",
+            "mainClass": "DistinctSubsequences",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InterleavingString",
+            "request": "launch",
+            "mainClass": "InterleavingString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RecoverBinarySearchTree",
+            "request": "launch",
+            "mainClass": "RecoverBinarySearchTree",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScrambleString",
+            "request": "launch",
+            "mainClass": "ScrambleString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestRectangleinHistogram",
+            "request": "launch",
+            "mainClass": "LargestRectangleinHistogram",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "MinimumWindowSubstring",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TextJustification",
+            "request": "launch",
+            "mainClass": "TextJustification",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WildcardMatching",
+            "request": "launch",
+            "mainClass": "WildcardMatching",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JumpGameII",
+            "request": "launch",
+            "mainClass": "JumpGameII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestValidParentheses",
+            "request": "launch",
+            "mainClass": "LongestValidParentheses",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubstringwithConcatenationofAllWords",
+            "request": "launch",
+            "mainClass": "SubstringwithConcatenationofAllWords",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueLetterString",
+            "request": "launch",
+            "mainClass": "UniqueLetterString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PatchingArray",
+            "request": "launch",
+            "mainClass": "PatchingArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountofRangeSum",
+            "request": "launch",
+            "mainClass": "CountofRangeSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestSightseeingPair",
+            "request": "launch",
+            "mainClass": "BestSightseeingPair",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntegertoEnglishWords",
+            "request": "launch",
+            "mainClass": "IntegertoEnglishWords",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumbersWithRepeatedDigits",
+            "request": "launch",
+            "mainClass": "NumbersWithRepeatedDigits",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ErecttheFence",
+            "request": "launch",
+            "mainClass": "ErecttheFence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IPO",
+            "request": "launch",
+            "mainClass": "IPO",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveBoxes",
+            "request": "launch",
+            "mainClass": "RemoveBoxes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TallestBillboard",
+            "request": "launch",
+            "mainClass": "TallestBillboard",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CapacityToShipPackagesWithinDDays",
+            "request": "launch",
+            "mainClass": "CapacityToShipPackagesWithinDDays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SudokuSolver",
+            "request": "launch",
+            "mainClass": "SudokuSolver",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StrangePrinter",
+            "request": "launch",
+            "mainClass": "StrangePrinter",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeModule",
+            "request": "launch",
+            "mainClass": "RangeModule",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DataStreamasDisjointIntervals",
+            "request": "launch",
+            "mainClass": "DataStreamasDisjointIntervals",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumDominoRotationsForEqualRow",
+            "request": "launch",
+            "mainClass": "MinimumDominoRotationsForEqualRow",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClumsyFactorial",
+            "request": "launch",
+            "mainClass": "ClumsyFactorial",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakingALargeIsland",
+            "request": "launch",
+            "mainClass": "MakingALargeIsland",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FreedomTrail",
+            "request": "launch",
+            "mainClass": "FreedomTrail",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FallingSquares",
+            "request": "launch",
+            "mainClass": "FallingSquares",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofAtoms",
+            "request": "launch",
+            "mainClass": "NumberofAtoms",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainVirus",
+            "request": "launch",
+            "mainClass": "ContainVirus",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RectangleAreaII",
+            "request": "launch",
+            "mainClass": "RectangleAreaII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxChunksToMakeSortedII",
+            "request": "launch",
+            "mainClass": "MaxChunksToMakeSortedII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofDistinctIslandsII",
+            "request": "launch",
+            "mainClass": "NumberofDistinctIslandsII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordAbbreviation",
+            "request": "launch",
+            "mainClass": "WordAbbreviation",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeleteColumnstoMakeSortedIII",
+            "request": "launch",
+            "mainClass": "DeleteColumnstoMakeSortedIII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeleteColumnstoMakeSortedII",
+            "request": "launch",
+            "mainClass": "DeleteColumnstoMakeSortedII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxConsecutiveOnesIII",
+            "request": "launch",
+            "mainClass": "MaxConsecutiveOnesIII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReachaNumber",
+            "request": "launch",
+            "mainClass": "ReachaNumber",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringtoInteger",
+            "request": "launch",
+            "mainClass": "StringtoInteger",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestSumofAverages",
+            "request": "launch",
+            "mainClass": "LargestSumofAverages",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestRange",
+            "request": "launch",
+            "mainClass": "SmallestRange",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainsDuplicateIII",
+            "request": "launch",
+            "mainClass": "ContainsDuplicateIII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimePalindrome",
+            "request": "launch",
+            "mainClass": "PrimePalindrome",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountPrimes",
+            "request": "launch",
+            "mainClass": "CountPrimes",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DivideTwoIntegers",
+            "request": "launch",
+            "mainClass": "DivideTwoIntegers",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FractiontoRecurringDecimal",
+            "request": "launch",
+            "mainClass": "FractiontoRecurringDecimal",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeSumQueryMutable",
+            "request": "launch",
+            "mainClass": "RangeSumQueryMutable",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofLongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "NumberofLongestIncreasingSubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestUncommonSubsequenceII",
+            "request": "launch",
+            "mainClass": "LongestUncommonSubsequenceII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumProductSubarray",
+            "request": "launch",
+            "mainClass": "MaximumProductSubarray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GridIllumination",
+            "request": "launch",
+            "mainClass": "GridIllumination",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SmallestRectangleEnclosingBlackPixels",
+            "request": "launch",
+            "mainClass": "SmallestRectangleEnclosingBlackPixels",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumSizeSubarraySum",
+            "request": "launch",
+            "mainClass": "MinimumSizeSubarraySum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuperPow",
+            "request": "launch",
+            "mainClass": "SuperPow",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BitwiseANDofNumbersRange",
+            "request": "launch",
+            "mainClass": "BitwiseANDofNumbersRange",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContinuousSubarraySum",
+            "request": "launch",
+            "mainClass": "ContinuousSubarraySum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumSwapsToMakeSequencesIncreasing",
+            "request": "launch",
+            "mainClass": "MinimumSwapsToMakeSequencesIncreasing",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestDivisibleSubset",
+            "request": "launch",
+            "mainClass": "LargestDivisibleSubset",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberofSquarefulArrays",
+            "request": "launch",
+            "mainClass": "NumberofSquarefulArrays",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubarrayProductLessThanK",
+            "request": "launch",
+            "mainClass": "SubarrayProductLessThanK",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DecodedStringatIndex",
+            "request": "launch",
+            "mainClass": "DecodedStringatIndex",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwapAdjacentinLRString",
+            "request": "launch",
+            "mainClass": "SwapAdjacentinLRString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayintoConsecutiveSubsequences",
+            "request": "launch",
+            "mainClass": "SplitArrayintoConsecutiveSubsequences",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumXORofTwoNumbersinanArray",
+            "request": "launch",
+            "mainClass": "MaximumXORofTwoNumbersinanArray",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PartitionEqualSubsetSum",
+            "request": "launch",
+            "mainClass": "PartitionEqualSubsetSum",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RottingOranges",
+            "request": "launch",
+            "mainClass": "RottingOranges",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumHeightTrees",
+            "request": "launch",
+            "mainClass": "MinimumHeightTrees",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomFlipMatrix",
+            "request": "launch",
+            "mainClass": "RandomFlipMatrix",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WiggleSubsequence",
+            "request": "launch",
+            "mainClass": "WiggleSubsequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayintoFibonacciSequence",
+            "request": "launch",
+            "mainClass": "SplitArrayintoFibonacciSequence",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValidateIPAddress",
+            "request": "launch",
+            "mainClass": "ValidateIPAddress",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumFactorization",
+            "request": "launch",
+            "mainClass": "MinimumFactorization",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntegerReplacement",
+            "request": "launch",
+            "mainClass": "IntegerReplacement",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateFunction",
+            "request": "launch",
+            "mainClass": "RotateFunction",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UTF8Validation",
+            "request": "launch",
+            "mainClass": "UTF8Validation",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClosestBinarySearchTreeValueII",
+            "request": "launch",
+            "mainClass": "ClosestBinarySearchTreeValueII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DominoandTrominoTiling",
+            "request": "launch",
+            "mainClass": "DominoandTrominoTiling",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestBSTSubtree",
+            "request": "launch",
+            "mainClass": "LargestBSTSubtree",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniqueSubstringsinWraparoundString",
+            "request": "launch",
+            "mainClass": "UniqueSubstringsinWraparoundString",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumAreaRectangleII",
+            "request": "launch",
+            "mainClass": "MinimumAreaRectangleII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LonelyPixelII",
+            "request": "launch",
+            "mainClass": "LonelyPixelII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateArrayLiteral",
+            "request": "launch",
+            "mainClass": "CreateArrayLiteral",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BrokenCalculator",
+            "request": "launch",
+            "mainClass": "BrokenCalculator",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimalDivision",
+            "request": "launch",
+            "mainClass": "OptimalDivision",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Numberof1Bits",
+            "request": "launch",
+            "mainClass": "Numberof1Bits",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PeekingIterator",
+            "request": "launch",
+            "mainClass": "PeekingIterator",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShoppingOffers",
+            "request": "launch",
+            "mainClass": "ShoppingOffers",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IPtoCIDR",
+            "request": "launch",
+            "mainClass": "IPtoCIDR",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseLinkedListII",
+            "request": "launch",
+            "mainClass": "ReverseLinkedListII",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindKPairswithSmallestSums",
+            "request": "launch",
+            "mainClass": "FindKPairswithSmallestSums",
+            "projectName": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZumaGame",
+            "request": "launch",
+            "mainClass": "ZumaGame",
+            "projectName": "Solution"
+        }
+    ]
+}

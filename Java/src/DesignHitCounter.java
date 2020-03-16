@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class DesignHitCounter {
-	LinkedList<Integer> list;
+	private LinkedList<Integer> list;
 	
 	
 	public void HitCounter() {

@@ -15,7 +15,7 @@ class Solution(object):
                 if nums[start] + nums[end] >= tar:
                     end = end-1
                 else:
-                    res += end-start;
+                    res += end-start
                     start = start + 1
         return res
 
