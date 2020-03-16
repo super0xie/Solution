@@ -4,7 +4,7 @@ public class CreateArrayLiteral {
     
     
     public static void main(String[] args) {
-        String origin = "[[10,16],[2,8],[1,6],[7,12]]";
+        String origin = "[[1,0],[-3,1],[-4,0],[2,3]]";
 
         origin = origin.replace('[', '{');
         origin = origin.replace(']', '}');
