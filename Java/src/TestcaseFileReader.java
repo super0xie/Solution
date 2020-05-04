@@ -19,7 +19,7 @@ public class TestcaseFileReader {
 				for(int i = 0; i < nums.length; i++) arr[i] = Integer.parseInt(nums[i]);
 				res.add(arr);
 			}
-			
+			sc.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -40,6 +40,7 @@ public class TestcaseFileReader {
 				for(int i = 0; i < nums.length; i++) arr[i] = Integer.parseInt(nums[i]);
 				res.add(arr);
 			}
+			sc.close();
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -63,6 +64,7 @@ public class TestcaseFileReader {
 					res.add(Arrays.asList(Integer.parseInt(ns[0]), Integer.parseInt(ns[1])));
 				}
 			}
+			sc.close();
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -71,6 +73,23 @@ public class TestcaseFileReader {
 		
 		return res;
 		
+	}
+	
+	public static String getString(){
+		String res = null;
+		File file = new File("C:\\Users\\super\\eclipse-workspace\\Solution\\Java\\src\\testcase");
+		try {
+			Scanner sc = new Scanner(file);
+			while(sc.hasNext()) {
+				res = sc.nextLine();
+			}
+			sc.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return res;
 	}
 
 }

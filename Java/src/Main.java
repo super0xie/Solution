@@ -1,21 +1,20 @@
-import java.math.BigInteger;
-import java.util.Random;
+
 
 public class Main {
 	
-	private static int seq;
 	
 	public static int test(int i) {
         try 
         {
           throw new Exception();
         } catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
         finally {
-            return 2;
+            
         }
+        
+        return 2;
     }
 	
 	public static void main(String[] args) {

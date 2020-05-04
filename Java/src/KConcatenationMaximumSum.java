@@ -56,10 +56,12 @@ public class KConcatenationMaximumSum {
 			
 			
 			
-			
+			sc.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} finally {
+			
 		}
 		
 //		int[] arr = {1,-1};

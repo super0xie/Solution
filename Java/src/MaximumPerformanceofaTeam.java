@@ -45,9 +45,7 @@ public class MaximumPerformanceofaTeam {
         			pq.add(l.get(i).s);
         		}
         	}
-        	sum = sum % mod;
-        	
-        	
+
         	res = Math.max(res, sum * l.get(i).e);
         	
         }
@@ -57,8 +55,11 @@ public class MaximumPerformanceofaTeam {
 	
 	public static void main(String[] args) {
 		MaximumPerformanceofaTeam test = new MaximumPerformanceofaTeam();
-		int[] speed = {2,8,2};
-		int[] efficiency = {2,7,1};
-		System.out.println(test.maxPerformance(100000, speed, efficiency, 86484));
+		
+		ArrayList<int[]> arrs = TestcaseFileReader.getIntArrays("C:\\Users\\super\\eclipse-workspace\\Solution\\Java\\src\\testcase");
+		
+		System.out.println(arrs.size());
+		
+		System.out.println(test.maxPerformance(100000, arrs.get(0), arrs.get(1), 86484));
 	}
 }

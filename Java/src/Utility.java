@@ -1,7 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.UnsupportedEncodingException;
-import java.util.Scanner;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
 

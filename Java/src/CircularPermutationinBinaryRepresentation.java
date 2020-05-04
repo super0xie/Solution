@@ -23,7 +23,7 @@ public class CircularPermutationinBinaryRepresentation {
 	
 	
 	private ArrayList<Integer> helper(int n) {
-		if(n == 1) return new ArrayList(Arrays.asList(0, 1));
+		if(n == 1) return new ArrayList<Integer>(Arrays.asList(0, 1));
 		else {
 			ArrayList<Integer> res = helper(n-1);
 			int add = 1 << (n-1);
