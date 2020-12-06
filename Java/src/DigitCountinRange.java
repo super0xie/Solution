@@ -111,9 +111,9 @@ public class DigitCountinRange {
 	
 	public static void main(String[] args) {
 		DigitCountinRange test = new DigitCountinRange();
-//		System.out.println(test.dcountWithLen(1, 2));
+		System.out.println(test.C(5, 3));
 		
-		System.out.println(test.digitsCount(3, 100, 250));
+//		System.out.println(test.digitsCount(3, 100, 250));
 //		System.out.println(test.largerWithSameLen(new int [] {1, 3} , 1));
 	}
 	
